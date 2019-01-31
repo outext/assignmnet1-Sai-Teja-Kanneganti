@@ -17,8 +17,14 @@ def download(g):
     soup = BeautifulSoup(response.content, "html.parser")
     tags = soup.find_all(tag that you want to parse through)
     # TODO add code here
-    return (total)
+    
+    
+    total = None
+    for i in tags:
 
+
+    return (total)
+"""
 
 def tokenize(a):
     """ This function downloads gives you tokenized words ."""
@@ -52,7 +58,7 @@ def show2(f):
    """This function will show two words with highest frequency""" 
     # TODO add code here
     return[]
-
+"""
 if __name__ == '__main__':
     url = "http://catdir.loc.gov/catdir/enhancements/fy0665/2006042906-s.html"
     tot = (download(url))
